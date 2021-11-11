@@ -1,38 +1,120 @@
-.App {
-  text-align: center;
+@import url("Assets/css/Navbar.css");
+@import url("Assets/css/Overview.css");
+@import url("Assets/css/Wishlist.css");
+* {
+    padding: 0px;
+    margin: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: #353535;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-danger {
+    color: red;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn {
+    color: white;
+    border-radius: 0px;
+    border: none;
+    padding: 13px;
+    font-size: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 15px;
+    margin: 10px 20px 0px 0px;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-success {
+    background-color: #11c544;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-info {
+    background-color: #294fcc;
+}
+
+.btn-danger {
+    background-color: #dc1f1f;
+}
+
+.btn-danger:hover {
+    background-color: #ca2020;
+}
+
+.btn-success:hover {
+    background-color: #12a93c;
+    transition: 0.9s;
+}
+
+.btn-info:hover {
+    background-color: #193eba;
+    transition: 0.9s;
+}
+
+.btn-group {
+    padding: 30px 20px 30px 20px;
+}
+
+.mt-2 {
+    margin-top: 1rem;
+}
+
+.container {
+    padding-top: 25px;
+}
+
+@media screen and (min-width: 937px) {
+    .container {
+        margin: 0px 20vw;
+    }
+}
+
+.card {
+    border: rgb(175, 175, 175) solid;
+    background-color: rgb(181, 178, 178);
+    border-radius: 20px;
+    box-shadow: 8px 6px 0px 1px rgba(0, 0, 0, 0.508);
+    padding: 40px 10px;
+    margin: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.judul {
+    color: white;
+}
+
+.text-right {
+    float: right;
+}
+
+.img-card {
+    text-align: center;
+}
+
+.text-justify-center {
+    text-align: center;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.img-logo {
+    width: 25%;
+}
+
+footer {
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 40px;
+    background-color: #2d2d2d;
+    color: white;
+}
+
+.display-title {
+    font-size: 50px;
 }
